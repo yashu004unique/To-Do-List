@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #b35c00;
+    width: 100%;
+    height: 100vh;    
+}
+
+.card{
+    background: #fefefe;
+    width: 80%;
+    float: right;
+    margin: 40px 10px;    
+}
+
+
+.todo-header{
+    margin: 20px;
+}
+
+
+.todo-header span{
+    font-size: 28px;
+}
+
+.todo-enter{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.todo-enter input{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+}
+
+.todo-enter button, .todo-save button{
+    padding: 5px 20px;
+    background: #b35c00;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.todo-enter button:active, .todo-save button:active{
+    scale: 1.2;
+}
+
+.todo-save{
+    width: 70%;    
+    margin: 40px auto;
+    gap: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    min-height: 300px;
+    max-height: 500px;
+    padding: 20px;
+    overflow: auto;
+    
+    
+}
+.todo-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-save p{
+    width: 80%;
+    padding: 5px;    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
